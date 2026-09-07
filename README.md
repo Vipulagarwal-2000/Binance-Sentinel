@@ -47,6 +47,7 @@ What would invalidate the thesis?
 
 ---
 
+---
 # Architecture
 
 ```text
