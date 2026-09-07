@@ -35,7 +35,7 @@ What would invalidate the thesis?
 
 ---
 
-## Why it is an Agent
+## Sentinel is Currently Semi Autonomus
 
 Sentinel coordinates multiple research stages instead of returning a single indicator result:
 
