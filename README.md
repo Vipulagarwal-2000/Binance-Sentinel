@@ -1,6 +1,6 @@
-# Binance Sentinel > ### **Adversarial Market Research Agent**
+# Binance Sentinel 
 
-
+> ### **Adversarial Market Research Agent**
 > Turn a trading thesis into a structured investigation — then challenge it.
 
 **Research only. No trade execution.**
