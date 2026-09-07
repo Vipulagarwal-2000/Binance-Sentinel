@@ -98,7 +98,7 @@ What would invalidate the thesis?
                 │ PDF/Markdown │
                 └──────────────┘
 
----
+```
 
 ### Default market coverage
 
