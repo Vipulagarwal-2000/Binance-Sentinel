@@ -47,7 +47,6 @@ What would invalidate the thesis?
 
 ---
 
----
 # Architecture
 
 ```text
@@ -100,27 +99,6 @@ What would invalidate the thesis?
                 └──────────────┘
 
 ---
-
-## MCP Integration
-
-Sentinel currently uses a **file-based MCP handoff**:
-
-```text
-storage/mcp/requests/
-    <REQUEST_ID>.json
-    <REQUEST_ID>.txt
-
-          ↓
-
-Binance MCP-connected agent
-
-          ↓
-
-storage/mcp/results/
-    <REQUEST_ID>.json
-```
-
-Sentinel waits for the **matching request ID**, so an old result is not used for a new case.
 
 ### Default market coverage
 
