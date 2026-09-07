@@ -7,6 +7,23 @@
 
 ---
 
+### Useful Links
+
+- [Architecture](#architecture)
+- [Research Workflow](#research-workflow)
+- [MCP Integration](#mcp-integration)
+- [MCP Setup](#mcp-setup--required-before-running-sentinel)
+- [User-Facing GUI](#user-facing-gui)
+- [Reports](#reports)
+- [Run Locally](#run-locally)
+- [Testing](#testing)
+- [Demo Research Cases](#demo-research-cases)
+- [Strengths & Trade-offs](#strengths--trade-offs)
+- [Current Scope](#current-scope)
+- [Future Direction](#future-direction)
+
+---
+
 ## What is Sentinel?
 
 Binance Sentinel takes a user's **LONG/SHORT thesis** and turns it into an auditable research workflow.
@@ -29,9 +46,6 @@ Are timeframes aligned?
 What would invalidate the thesis?
 ```
 
-### Core result
-
-**Thesis → Evidence → Challenge → Invalidation → Verdict**
 
 
 ---
@@ -86,7 +100,6 @@ What would invalidate the thesis?
                 │ Verdict +    │
                 │ PDF/Markdown │
                 └──────────────┘
-```
 
 ---
 
@@ -494,6 +507,12 @@ It does not:
 - execute trades
 
 ---
+
+### External Documentation
+
+- [Binance MCP Server](https://www.binance.com/en-ZA/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3)
+- [Binance Developer Documentation](https://developers.binance.com/)
+- [Binance Market Data Documentation](https://developers.binance.com/docs/derivatives/coin-margined-futures/market-data/rest-api/Get-Funding-Info)
 
 ## Binance Sentinel
 
