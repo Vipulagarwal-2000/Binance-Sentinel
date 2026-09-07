@@ -3,7 +3,7 @@
 > ### **Adversarial Market Research Agent**
 > Turn a trading thesis into a structured investigation — then challenge it.
 
-**Research only. No trade execution.**
+**Research only. No trade execution. Semi Autonomus Agent**
 
 ---
 
@@ -33,42 +33,6 @@ What would invalidate the thesis?
 
 **Thesis → Evidence → Challenge → Invalidation → Verdict**
 
- **Sentinel is Currently Semi Autonomus**
----
-
-
-
-Sentinel coordinates multiple research stages instead of returning a single indicator result:
-
-```text
-User Thesis
-    ↓
-Research Case
-    ↓
-Research Plan
-    ↓
-Binance MCP Request
-    ↓
-Structured Market Data
-    ↓
-Data Quality Check
-    ↓
-Technical Analysis
-    ↓
-Evidence Ledger
-    ↓
-Multi-Timeframe Review
-    ↓
-Confidence
-    ↓
-Adversarial Critic
-    ↓
-Invalidation Conditions
-    ↓
-Verdict + Report
-```
-
-The system persists the research case, session, evidence, request/result artifacts, and final report.
 
 ---
 
