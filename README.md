@@ -118,29 +118,6 @@ Multi-TF   Adversarial
 └─────────────────────┘
 ```
 
-### Main modules
-
-```text
-main.py                       User-facing GUI
-research/case_manager.py     Research case persistence
-research/plan.py              Research plan
-research/data_request.py      MCP request construction
-research/data_quality.py      Data validation
-research/mcp_bridge.py        File-based MCP handoff
-research/mcp_runner.py        Research execution
-research/pipeline.py          End-to-end orchestration
-research/pdf_report.py       PDF result brief
-
-binance/market_data.py        Market data models
-binance/response_parser.py    MCP response parsing
-
-analysis/market_analysis.py   Deterministic market analysis
-analysis/thesis_evaluator.py  Evidence generation
-analysis/multi_timeframe.py   Cross-timeframe aggregation
-analysis/confidence.py        Evidence-weighted confidence
-analysis/critic.py            Adversarial review
-```
-
 ## How it works
 
 ### 1. Create a thesis
