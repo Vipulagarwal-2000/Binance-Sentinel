@@ -59,24 +59,6 @@ Verdict
 Markdown + PDF Report
 ```
 
-## Why Sentinel is an Agent
-
-Sentinel coordinates a sequence of research tasks and produces outputs for subsequent stages:
-
-1. Create and persist a case.
-2. Load the research plan.
-3. Generate a structured market-data request.
-4. Wait for the matching MCP result.
-5. Validate the dataset.
-6. Analyze multiple timeframes.
-7. Classify evidence.
-8. Aggregate the evidence.
-9. Calculate evidence-weighted confidence.
-10. Challenge the thesis.
-11. Derive future invalidation conditions.
-12. Persist the research session and reports.
-
-The current product is best described as an **adversarial market-research agent / decision-support prototype**, not an autonomous trading system.
 
 ## Architecture
 
