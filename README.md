@@ -33,9 +33,10 @@ What would invalidate the thesis?
 
 **Thesis → Evidence → Challenge → Invalidation → Verdict**
 
+ **Sentinel is Currently Semi Autonomus**
 ---
 
-## Sentinel is Currently Semi Autonomus
+
 
 Sentinel coordinates multiple research stages instead of returning a single indicator result:
 
