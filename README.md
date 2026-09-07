@@ -10,7 +10,6 @@
 
 - [Architecture](#architecture)
 - [Research Model](#research-model)
-- [MCP Integration](#mcp-integration)
 - [User-Facing GUI](#user-facing-gui)
 - [Reports](#reports)
 - [Run Locally](#run-locally)
