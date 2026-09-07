@@ -9,10 +9,10 @@
 
 ### Useful Links
 
+- [What is Sentinel?](#what-is-sentinel?)
 - [Architecture](#architecture)
-- [Research Workflow](#research-workflow)
+- [Research Model](#research-model)
 - [MCP Integration](#mcp-integration)
-- [MCP Setup](#mcp-setup--required-before-running-sentinel)
 - [User-Facing GUI](#user-facing-gui)
 - [Reports](#reports)
 - [Run Locally](#run-locally)
@@ -293,6 +293,15 @@ From the project root:
 python main.py
 ```
 
+## MCP Setup — Required Before Running Sentinel
+
+Sentinel currently uses a **file-based handoff with a Binance MCP-connected agent running through VS Code**.
+
+Before starting Sentinel, the user must configure the Binance MCP server/agent in their VS Code environment.
+
+- [Binance MCP Server](https://www.binance.com/en-ZA/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3)
+
+
 ## 3. Research workflow
 
 ```text
@@ -340,51 +349,6 @@ Verdict
  ↓
 PDF
 ```
-
----
-
-# Project Structure
-
-```text
-binance-sentinel/
-│
-├── main.py
-├── config.py
-│
-├── analysis/
-│   ├── market_analysis.py
-│   ├── thesis_evaluator.py
-│   ├── multi_timeframe.py
-│   ├── confidence.py
-│   └── critic.py
-│
-├── binance/
-│   ├── market_data.py
-│   └── response_parser.py
-│
-├── research/
-│   ├── case_manager.py
-│   ├── plan.py
-│   ├── plan_manager.py
-│   ├── session.py
-│   ├── data_request.py
-│   ├── data_quality.py
-│   ├── mcp_bridge.py
-│   ├── mcp_runner.py
-│   ├── pipeline.py
-│   ├── report_generator.py
-│   └── pdf_report.py
-│
-├── storage/
-│   ├── cases/
-│   └── mcp/
-│       ├── requests/
-│       └── results/
-│
-└── output/
-    └── reports/
-```
-
 ---
 
 # Reports
@@ -425,8 +389,6 @@ The prototype has been exercised with:
 BTCUSDT    → SHORT
 EDENUSDT   → LONG
 BNBUSDT    → LONG
-DOGEUSDT   → LONG
-PLUMEUSDT  → SHORT
 ```
 
 These are examples, not hardcoded modes.
@@ -510,7 +472,7 @@ It does not:
 
 ### External Documentation
 
-- [Binance MCP Server](https://www.binance.com/en-ZA/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3)
+
 - [Binance Developer Documentation](https://developers.binance.com/)
 - [Binance Market Data Documentation](https://developers.binance.com/docs/derivatives/coin-margined-futures/market-data/rest-api/Get-Funding-Info)
 
