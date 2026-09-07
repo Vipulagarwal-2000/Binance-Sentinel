@@ -14,7 +14,6 @@
 - [Reports](#reports)
 - [Run Locally](#run-locally)
 - [Testing](#testing)
-- [Demo Research Cases](#demo-research-cases)
 - [Strengths](#strengths)
 - [Trade-offs](#trade-offs)
 - [Current Scope](#current-scope)
