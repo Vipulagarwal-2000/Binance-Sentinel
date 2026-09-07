@@ -6,10 +6,8 @@
 **Research only. No trade execution. Semi Autonomus Agent**
 
 ---
+## Useful Links
 
-### Useful Links
-
-- [What is Sentinel?](#what-is-sentinel?)
 - [Architecture](#architecture)
 - [Research Model](#research-model)
 - [MCP Integration](#mcp-integration)
@@ -18,7 +16,8 @@
 - [Run Locally](#run-locally)
 - [Testing](#testing)
 - [Demo Research Cases](#demo-research-cases)
-- [Strengths & Trade-offs](#strengths--trade-offs)
+- [Strengths](#strengths)
+- [Trade-offs](#trade-offs)
 - [Current Scope](#current-scope)
 - [Future Direction](#future-direction)
 
@@ -231,8 +230,6 @@ Evidence Ledger
 Adversarial Challenges
 Confidence Breakdown
 ```
-
-The workspace is **resizable and scrollable**.
 
 ### Output
 
@@ -469,12 +466,19 @@ It does not:
 - execute trades
 
 ---
+## External Links
 
-### External Documentation
+### Binance
 
-
+- [Binance MCP Server](https://www.binance.com/en/support/faq/detail/7a6e676e36fb455d96478932cb12d9f3)
+- [Binance Agent OS](https://www.binance.com/en/agent-os)
 - [Binance Developer Documentation](https://developers.binance.com/)
-- [Binance Market Data Documentation](https://developers.binance.com/docs/derivatives/coin-margined-futures/market-data/rest-api/Get-Funding-Info)
+- [Binance Market Data Documentation](https://developers.binance.com/docs/)
+
+### MCP Endpoint
+
+```text
+https://agent.binance.com/mcp/agentic
 
 ## Binance Sentinel
 
