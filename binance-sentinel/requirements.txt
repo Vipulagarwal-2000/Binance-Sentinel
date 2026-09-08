@@ -1,0 +1,4 @@
+# Binance Sentinel dependencies
+# Python standard-library modules do not need pip installation.
+
+reportlab
