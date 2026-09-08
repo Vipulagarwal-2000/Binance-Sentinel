@@ -1,0 +1,17 @@
+{
+    "case_id": "BTCUSDT_001",
+    "name": "BTCUSDT SHORT Thesis",
+    "symbol": "BTCUSDT",
+    "direction": "SHORT",
+    "time_horizon": "7-14 days",
+    "thesis": "Bitcoin has been elevated for an extended period and I believe it is likely to reverse lower toward the $70,000–$72,000 area over the next 7–14 days. The current price action looks overextended, and I expect resistance near the recent highs to lead to a meaningful pullback.",
+    "assumptions": [],
+    "materials": [],
+    "evidence": [],
+    "confidence": null,
+    "verdict": null,
+    "invalidation_conditions": [],
+    "thesis_versions": [],
+    "created_at": "2026-09-07T15:35:31.639256",
+    "updated_at": "2026-09-07T15:35:31.639278"
+}

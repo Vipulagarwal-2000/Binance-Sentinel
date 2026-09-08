@@ -1,0 +1,20 @@
+{
+    "symbol": "EDENUSDT",
+    "timeframes": [
+        "1D",
+        "4H",
+        "1H"
+    ],
+    "history_depth": {
+        "1D": 60,
+        "4H": 180,
+        "1H": 720
+    },
+    "market_data": [
+        "price",
+        "24h_statistics",
+        "candles",
+        "volume",
+        "order_book"
+    ]
+}

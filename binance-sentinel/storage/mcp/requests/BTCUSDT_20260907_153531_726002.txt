@@ -1,0 +1,78 @@
+BINANCE SENTINEL MARKET DATA REQUEST
+============================================================
+
+Request ID: BTCUSDT_20260907_153531_726002
+Symbol: BTCUSDT
+
+OBJECTIVE
+Retrieve the Binance market data required for an
+adversarial technical research investigation.
+
+HISTORICAL CANDLE DATA
+
+Retrieve the following number of completed candles
+for each requested timeframe:
+
+- 1D: 60 completed candles
+- 4H: 180 completed candles
+- 1H: 720 completed candles
+
+For every candle, preserve these fields:
+- open_time
+- open
+- high
+- low
+- close
+- volume
+- close_time
+- quote_volume
+- trade_count
+- taker_buy_volume
+
+CURRENT MARKET DATA
+
+- Current price / latest market price
+- 24-hour market statistics
+- Current/recent volume information
+- Current order book with bid and ask levels
+
+DATA REQUIREMENTS
+
+- Do not summarize the historical candle data.
+- Do not truncate the requested candle history.
+- Do not omit requested timeframes.
+- Do not replace data with a natural-language explanation.
+- Preserve numeric values accurately.
+- Return valid structured JSON.
+
+EXPECTED RESULT STRUCTURE
+
+{
+  "symbol": "SYMBOL",
+  "candles": {
+    "1D": [...],
+    "4H": [...],
+    "1H": [...]
+  },
+  "price": {...},
+  "24h_statistics": {...},
+  "volume": {...},
+  "order_book": {...}
+}
+
+FILE HANDOFF
+
+The result must correspond to this request ID:
+BTCUSDT_20260907_153531_726002
+
+Save the final structured JSON result as:
+storage/mcp/results/BTCUSDT_20260907_153531_726002.json
+
+Do not create a different request ID.
+Do not mix data from another research request.
+
+FINAL REQUIREMENT
+
+Return the requested Binance market data in structured JSON.
+The Sentinel research engine will perform all technical
+analysis independently.

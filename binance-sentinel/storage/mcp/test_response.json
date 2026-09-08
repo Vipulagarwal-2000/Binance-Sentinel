@@ -1,0 +1,10 @@
+{
+    "ticker": {
+        "last_price": "108.50",
+        "price_change": "8.50",
+        "price_change_percent": "8.50"
+    },
+    "candles": {
+        "4h": []
+    }
+}

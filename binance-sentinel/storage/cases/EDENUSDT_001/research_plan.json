@@ -1,0 +1,46 @@
+{
+    "timeframes": [
+        "1D",
+        "4H",
+        "1H"
+    ],
+    "history_depth": {
+        "1D": 60,
+        "4H": 180,
+        "1H": 720
+    },
+    "market_data": [
+        "price",
+        "24h_statistics",
+        "candles",
+        "volume",
+        "order_book"
+    ],
+    "analysis": [
+        "trend_structure",
+        "momentum",
+        "volume_price",
+        "support_resistance",
+        "volatility"
+    ],
+    "reasoning": [
+        "bull_case",
+        "bear_case",
+        "supporting_evidence",
+        "contradictory_evidence",
+        "inconclusive_evidence",
+        "invalidation",
+        "multi_timeframe_confirmation",
+        "adversarial_challenge",
+        "thesis_confidence"
+    ],
+    "material_categories": [
+        "previous_analysis",
+        "market_research",
+        "technical_analysis",
+        "project_information",
+        "tokenomics",
+        "news_events",
+        "user_notes"
+    ]
+}
