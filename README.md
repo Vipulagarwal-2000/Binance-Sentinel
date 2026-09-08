@@ -3,8 +3,10 @@
 > ### **Adversarial Market Research Agent**
 > Turn a trading thesis into a structured investigation — then challenge it.
 
-**Research only. No trade execution. Semi Autonomus Agent**
-[Working Video](#https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
+**Research only. No trade execution. Semi Autonomus Agent.**
+
+[![Youtube demo](https://youtube.com)](https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
+
 
 ---
 ## Useful Links
