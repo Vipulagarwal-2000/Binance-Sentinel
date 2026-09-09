@@ -7,6 +7,8 @@
 
 [![Youtube demo](https://youtube.com)](https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
 
+> **Note:** A new testing update is there just below Run locally section. It will make your experience running this project better and smoother.
+
 ---
 ## Useful Links
 
