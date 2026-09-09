@@ -293,6 +293,7 @@ Before starting Sentinel, the user must configure the Binance MCP server/agent i
 
 ---
 
+
 **Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
 
 > **Important:** The first large Binance MCP request can take significantly longer while the MCP environment initializes.
