@@ -7,38 +7,6 @@
 
 [![Youtube demo](https://youtube.com)](https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
 
-
----
----
-
-**Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
-
-> **Important:** The first large Binance MCP request can take significantly longer while the MCP environment initializes.
-> Subsequent requests are typically faster once the MCP environment is warmed up.
-
-First time BIG request can eatup half an hour or more on the MCP instruction, So warm it up
-with the couple of small test
-
-```text
-Get the current BTCUSDT price using Binance MCP
-Get 5 recent BTCUSDT 1H candles using Binance MCP
-Get the Top 10 Gainer coin using Binance MCP
-Get the 1hr * 40 Candles for BNBUSDT using Binance MCP
-```
-
-**NOTE:**
-
-``` 3-4 Small test can drastically cut the thesis investigation time using Binance mcp 
-for example
-
-0 - small test [ Direct thesis | 20 - 40 mins ]
-1-2 - small test [ thesis | 6 - 10 mins ]
-3-4 - small test [ thesis | 2 - 5 mins ]
-
-```
- > These timings are based on testing in the current development environment and may vary depending on the MCP environment and network conditions.
- 
----
 ---
 ## Useful Links
 
@@ -322,6 +290,37 @@ Before starting Sentinel, the user must configure the Binance MCP server/agent i
 7. Review evidence + verdict
 8. Open Markdown or PDF
 ```
+
+---
+
+**Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
+
+> **Important:** The first large Binance MCP request can take significantly longer while the MCP environment initializes.
+> Subsequent requests are typically faster once the MCP environment is warmed up.
+
+First time BIG request can eatup half an hour or more on the MCP instruction, So warm it up
+with the couple of small test
+
+```text
+Get the current BTCUSDT price using Binance MCP
+Get 5 recent BTCUSDT 1H candles using Binance MCP
+Get the Top 10 Gainer coin using Binance MCP
+Get the 1hr * 40 Candles for BNBUSDT using Binance MCP
+```
+
+**NOTE:**
+
+``` 3-4 Small test can drastically cut the thesis investigation time using Binance mcp 
+for example
+
+0 - small test [ Direct thesis | 20 - 40 mins ]
+1-2 - small test [ thesis | 6 - 10 mins ]
+3-4 - small test [ thesis | 2 - 5 mins ]
+
+```
+ > These timings are based on testing in the current development environment and may vary depending on the MCP environment and network conditions.
+ 
+---
 
 ---
 
