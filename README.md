@@ -7,6 +7,21 @@
 
 [![Youtube demo](https://youtube.com)](https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
 
+**Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
+
+> **First-time setup:** initialize the Binance MCP agent with a couple of small test request before running a full Sentinel investigation. Subsequent requests are typically faster once the MCP environment is warmed up.
+
+First time BIG request can eatup half an hour or more on the MCP instruction, So warm it up
+
+with the couple of small test
+```text
+Get the current BTCUSDT price using Binance MCP
+Get 5 recent BTCUSDT 1H candles using Binance MCP
+Get the Top 10 Gainer coin using Binance MCP
+Get the 1hr * 40 Candles for BNBUSDT using Binance MCP
+```
+
+
 
 ---
 ## Useful Links
