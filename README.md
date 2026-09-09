@@ -12,8 +12,8 @@
 > **First-time setup:** initialize the Binance MCP agent with a couple of small test request before running a full Sentinel investigation. Subsequent requests are typically faster once the MCP environment is warmed up.
 
 First time BIG request can eatup half an hour or more on the MCP instruction, So warm it up
-
 with the couple of small test
+
 ```text
 Get the current BTCUSDT price using Binance MCP
 Get 5 recent BTCUSDT 1H candles using Binance MCP
@@ -21,6 +21,16 @@ Get the Top 10 Gainer coin using Binance MCP
 Get the 1hr * 40 Candles for BNBUSDT using Binance MCP
 ```
 
+**NOTE:**
+
+``` 3-4 Small test can drastically cut the thesis investigation time using Binance mcp 
+for example
+
+0 - small test [ Direct thesis | 20 - 40 mins ]
+1-2 - small test [ thesis | 6 - 10 mins ]
+3-4 - small test [ thesis | 2 - 5 mins ]
+
+```
 
 
 ---
