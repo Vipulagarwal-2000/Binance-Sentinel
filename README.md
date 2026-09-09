@@ -9,7 +9,8 @@
 
 **Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
 
-> **First-time setup:** initialize the Binance MCP agent with a couple of small test request before running a full Sentinel investigation. Subsequent requests are typically faster once the MCP environment is warmed up.
+> **Important:** The first large Binance MCP request can take significantly longer while the MCP environment initializes.
+> Subsequent requests are typically faster once the MCP environment is warmed up.
 
 First time BIG request can eatup half an hour or more on the MCP instruction, So warm it up
 with the couple of small test
@@ -31,7 +32,7 @@ for example
 3-4 - small test [ thesis | 2 - 5 mins ]
 
 ```
-
+ > These timings are based on testing in the current development environment and may vary depending on the MCP environment and network conditions.
 
 ---
 ## Useful Links
