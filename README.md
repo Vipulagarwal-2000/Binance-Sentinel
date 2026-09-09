@@ -7,6 +7,10 @@
 
 [![Youtube demo](https://youtube.com)](https://www.youtube.com/watch?si=P0T0Gy2m2AuFHRAV&v=nHBFhw_nQHQ&feature=youtu.be)
 
+
+---
+---
+
 **Quick Update from Testing** DON'T WASTE YOUR TIME ON LONG FIRST RUN, DO THIS
 
 > **Important:** The first large Binance MCP request can take significantly longer while the MCP environment initializes.
@@ -33,7 +37,8 @@ for example
 
 ```
  > These timings are based on testing in the current development environment and may vary depending on the MCP environment and network conditions.
-
+ 
+---
 ---
 ## Useful Links
 
